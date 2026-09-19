@@ -9,4 +9,21 @@ flowchart TD
     A[Refresh] --> B[Global Execution Context جدید]
 ```
 
-## 2.
+## 2.Function Execution Context
+
+هربار که یه فانکشن فراخوانی بشه اجرا میشه
+حتی اگر 10 بار یه فانکشن رو صدا بزنییم 10 بار ایجاد میشود
+
+```mermaid
+flowchart TD
+    A[Global Execution Context] --> B[test() Context]
+    B --> C[حذف]
+    C --> D[test() Context]
+    D --> E[حذف]
+    E --> F[test() Context]
+    F --> G[حذف]
+    G --> H[بازگشت به Global]
+```
+
+## 3.Eval Execution Context
+در جاوا اسکریپت جدید نیاز نیست
