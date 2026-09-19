@@ -1,4 +1,3 @@
-حتماً. برای اینکه تفاوت `var`، `let` و `const` را دقیقاً در ارتباط با **Creation Phase، Execution Phase، Hoisting و TDZ** ببینی، این بخش را بعد از مثال فعلی اضافه کن.
 
 # 🧠 محیط اجرای برنامه و کدهای JavaScript
 
